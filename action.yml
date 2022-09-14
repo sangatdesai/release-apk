@@ -1,0 +1,12 @@
+name: "Build Android Debug/Release APK When You Create a New Tag"
+branding:
+  icon: "package"
+  color: "red"
+description: "Build Android Debug/Release APK When You Create a New Tag"
+author: "r0user"
+inputs:
+  GITHUB_TOKEN:
+    description: "Github secret token to allow automated publishing of APK to release."
+runs:
+  using: "docker"
+  image: "Dockerfile"
