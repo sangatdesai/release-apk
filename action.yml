@@ -1,8 +1,8 @@
-name: "Build Android Debug/Release APK When You Create a New Tag"
+name: "Build and Release APK"
 branding:
   icon: "package"
   color: "red"
-description: "Build Android Debug/Release APK When You Create a New Tag"
+description: "Build Android Debug or Release APK when you create a new Tag"
 author: "r0user"
 inputs:
   GITHUB_TOKEN:
