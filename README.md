@@ -18,7 +18,7 @@
 - As soon as you push the tag this github action will be initiated and generated apk build will be released under releases with the same tag, which you can check in your github - code - releases
 
 #### YML
-```
+```yml
 name: Build & Publish Release APK
 
 on:
