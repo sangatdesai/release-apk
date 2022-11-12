@@ -45,6 +45,7 @@ jobs:
       env:
        GITHUB_TOKEN: ${{ secrets.TOKEN }}
        APP_FOLDER: app
+       APP_FLAVOR: ""
 ```
 
 ## Secrets
@@ -57,7 +58,8 @@ I am not sure as to why using the default `GITHUB_TOKEN` provided universally wi
 
 ## Environment Variables
 You'll need to provide these environment variables to specify exactly what information is needed to build the APK.
-* **APP_FOLDER**: main folder to search for the apk. Most of the time, it's `app`
+* **APP_FOLDER**: main folder to search for the apk. Most of the time, it's `app`.
+* **APP_FLAVOR**: app flavor you want to specify. By default, it's empty.
 
 ---
 
